@@ -36,7 +36,7 @@ add_action( 'after_setup_theme', 'iamleigh_setup' );
 
 /**
  *
- * Filter the page title.
+ * Filter the page title
  *
  * Creates a nicely formatted and more specific title element text
  * for output in head of document, based on current view.
