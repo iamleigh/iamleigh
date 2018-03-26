@@ -1,4 +1,18 @@
 <?php
+/**
+ *
+ * I Am Leigh functions and definitions
+ *
+ * Sets up the theme and provides some helper functions, which are used
+ * in the theme as custom template tags. Others are attached to action and
+ * filter hooks in WordPress to change core functionality.
+ *
+ * @package iamleigh
+ * @subpackage iamleigh
+ * @since iamleigh 1.0
+ * @version 1.0
+ *
+ */
 function iamleigh_setup() {
 
     // Make theme available for translation
