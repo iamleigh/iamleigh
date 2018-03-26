@@ -78,7 +78,7 @@ add_filter( 'wp_title', 'iamleigh_wp_title', 10, 2 );
  *
  * Enqueue styles and scripts
  *
- * @since iamleigh 0.1
+ * @since iamleigh 1.0
  * @version 1.0
  *
  */
