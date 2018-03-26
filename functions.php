@@ -66,7 +66,7 @@ function iamleigh_wp_title( $title, $sep ) {
 
 	// Add a page number if necessary.
 	if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() )
-		$title = "$title $sep " . sprintf( __( 'Page %s', 'iteach' ), max( $paged, $page ) );
+		$title = "$title $sep " . sprintf( __( 'Page %s', 'iamleigh' ), max( $paged, $page ) );
 
     return $title;
     
@@ -74,7 +74,14 @@ function iamleigh_wp_title( $title, $sep ) {
 
 add_filter( 'wp_title', 'iamleigh_wp_title', 10, 2 );
 
-// Enqueue scripts
+/**
+ *
+ * Enqueue styles and scripts
+ *
+ * @since iamleigh 0.1
+ * @version 1.0
+ *
+ */
 require( get_template_directory() . '/inc/enqueue/load-scripts.php' );
 require( get_template_directory() . '/inc/enqueue/load-styles.php' );
 ?>
