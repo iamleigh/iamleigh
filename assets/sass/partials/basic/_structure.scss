@@ -1,0 +1,33 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.iam-ui .iamui-wrapper {
+    width: 100%;
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $color-white;
+
+    .iamui-header,
+    .iamui-section,
+    .iamui-footer {
+        width: 100%;
+    }
+
+    .iamui-header,
+    .iamui-footer {
+        flex: 0 0 auto;
+    }
+
+    .iamui-section {
+        flex: 1 0 auto;
+    }
+}

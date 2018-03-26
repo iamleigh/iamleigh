@@ -1,0 +1,90 @@
+.iam-ui {
+
+    // Paragraph
+    p {
+        margin: 0;
+        padding: 0;
+        color: $color-black;
+        font: 400 14px/28px $font;
+        letter-spacing: 0.62px;
+        text-transform: none;
+
+        &:not(:first-child):not(:only-child) {
+            padding-top: 10px;
+        }
+
+        &:not(:last-child):not(:only-child) {
+            margin-bottom: 20px;
+        }
+
+        strong {
+            font-weight: 700;
+        }
+    }
+
+    // Labels
+    label {
+
+        &.iamui-label--info {
+            height: auto;
+            opacity: 1;
+            cursor: default;
+            display: block;
+            position: relative;
+            margin: 15px 0;
+            padding: 14px 15px 12px;
+            border-radius: 3px;
+            background: #F8F8F8;
+            color: $color-black--light;
+            font: 400 13px/20px $font;
+            letter-spacing: 0;
+            transition: height 0.3s linear, opacity 0.3s ease;
+
+            span {
+                cursor: text;
+                opacity: 0.9;
+                display: block;
+                padding-left: 28px;
+
+                strong {
+                    color: $color-black--light;
+                    font-weight: bold;
+                }
+            }
+
+            &:before {
+                content: " ";
+                width: 18px;
+                height: 18px;
+                display: block;
+                position: absolute;
+                top: 15px;
+                left: 15px;
+                background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 18 18' preserveAspectRatio='none'><path fill='#4C6CDE' fill-rule='evenodd' d='M9 0c1.242 0 2.41.234 3.507.703 1.096.47 2.05 1.11 2.865 1.925.815.814 1.456 1.77 1.925 2.865C17.767 6.59 18 7.758 18 9s-.234 2.41-.703 3.507c-.47 1.096-1.11 2.05-1.925 2.865-.814.815-1.77 1.456-2.865 1.925C11.41 17.767 10.242 18 9 18s-2.41-.234-3.507-.703c-1.096-.47-2.05-1.11-2.865-1.925-.815-.814-1.456-1.77-1.925-2.865C.233 11.41 0 10.242 0 9s.234-2.41.703-3.507c.47-1.096 1.11-2.05 1.925-2.865.814-.815 1.77-1.456 2.865-1.925C6.59.233 7.758 0 9 0zm.914 14.01l-.018-5.82c0-.08-.03-.15-.087-.21-.06-.058-.13-.087-.212-.087H8.402c-.082 0-.152.03-.21.087-.06.06-.088.13-.088.21v5.82c0 .082.03.152.087.21.06.06.13.09.212.09h1.213c.082 0 .153-.03.21-.09.06-.058.09-.128.09-.21zM9 6.592c.305 0 .565-.11.782-.325.217-.217.325-.478.325-.783 0-.304-.108-.562-.325-.773-.217-.21-.47-.315-.764-.315-.305 0-.566.105-.783.316-.216.212-.325.47-.325.774 0 .305.106.563.317.774.21.21.468.322.773.334z'/></svg>") no-repeat;
+                speak: none;
+            }
+
+            &:first-child {
+                margin-top: 0;
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    // Links
+    a {
+        text-decoration: none;
+        transition: color .2s ease;
+        
+        &, &:visited {
+            color: $color-blue;
+        }
+
+        &:hover, &:active, &:focus {
+            color: $color-blue--dark;
+        }
+    }
+}
