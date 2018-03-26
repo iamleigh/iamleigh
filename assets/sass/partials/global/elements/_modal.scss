@@ -1,0 +1,367 @@
+.iam-ui .iamui-modal {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    display: none;
+    position: fixed;
+    z-index: 90;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+
+    .iamui-modal--mask {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(34, 34, 34, 0.7);
+    }
+
+    .iamui-modal--box {
+        width: 100%;
+        max-width: 700px;
+        opacity: 0;
+        flex: 0 0 auto;
+        position: relative;
+        z-index: 1;
+        transform-origin: center;
+        transform-style: preserve-3d;
+        animation-duration: 1s;
+        animation-fill-mode: both;
+
+        .iamui-box--header {
+            display: flex;
+            padding: 14px 20px;
+            background: $color-blue;
+
+            .iamui-header--text {
+                flex: 1;
+
+                .iamui-title {
+                    color: $color-white;
+                    font: 700 21px/24px $font--alt;
+                    letter-spacing: 0.34px;
+                    text-transform: uppercase;
+                }
+
+                + .iamui-header--action {
+                    margin-right: -5px;
+                    margin-left: 20px;
+                }
+            }
+
+            .iamui-header--action {
+                flex: 0 0 auto;
+
+                .iamui-action--button {
+                    cursor: pointer;
+                    margin: 0;
+                    padding: 5px;
+                    border: 0;
+                    background: transparent;
+
+                    .iamui-icon {
+                        width: 14px;
+                        height: 14px;
+                        display: block;
+
+                        path {
+                            fill: $color-white;
+                            transition: .2s ease;
+                        }
+                    }
+
+                    &:hover, &:active, &:focus {
+
+                        .iamui-icon {
+
+                            path {
+                                fill: $color-blue--dark;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .iamui-box--section {
+            max-height: 200px;
+            overflow-y: auto;
+            background: $color-white;
+
+            .iamui-section--content {
+                padding: 20px;
+
+                // CONTACT FORM 7
+                form.wpcf7-form {
+                    position: relative;
+
+                    p {
+                        margin-bottom: 0;
+                        padding-top: 0;
+                    }
+
+                    .wpcf7-field {
+                        
+                        label {
+                            display: block;
+                            margin: 0;
+                            padding: 0;
+                            border: 0;
+                            color: #B9B9B9;
+                            font: 700 11px/22px $font;
+                            letter-spacing: 0.43px;
+                            text-transform: uppercase;
+
+                            + .wpcf7-form-control-wrap {
+                                margin: 0 0 20px;
+                            }
+                        }
+
+                        .wpcf7-form-control-wrap {
+                            display: block;
+
+                            input, textarea {
+                                width: 100%;
+                                display: block;
+                                margin: 0;
+                                padding: 0;
+                                border: 0;
+                                border-bottom: 2px solid $color-gray--dark;
+                                color: $color-black--light;
+                                font: 400 13px/22px $font;
+                                letter-spacing: 0.43px;
+                                transition: .2s ease;
+
+                                &:active, &:focus {
+                                    border-bottom-color: $color-blue--light;
+                                    outline: none;
+                                    box-shadow: none;
+                                }
+
+                                &.wpcf7-not-valid {
+                                    border-bottom-color: $color-gray--dark;
+
+                                    &:active, &:focus {
+                                        border-bottom-color: $color-blue--light;
+                                    }
+                                }
+                            }
+
+                            input {
+                                padding: 8px 0 4px;
+                            }
+
+                            textarea {
+                                height: 36px;
+                                resize: vertical;
+                            }
+
+                            select {
+                                width: 100%;
+                                display: block;
+
+                                + .select2 {
+                                    width: 100% !important;
+
+                                    .iamui-wpcf7-select2 {
+                                        height: 36px;
+                                        padding: 8px 0 4px;
+                                        border: 0;
+                                        border-bottom: 2px solid $color-gray--dark;
+                                        border-radius: 0;
+
+                                        .select2-selection__rendered {
+                                            padding: 0;
+                                            color: $color-black--light;
+                                            font: 400 13px/22px $font;
+                                            letter-spacing: 0.43px;
+                                        }
+
+                                        .select2-selection__arrow {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .wpcf7-not-valid-tip {
+                                display: block;
+                                margin: 4px 0 0;
+                                padding: 5px 10px;
+                                border: 0;
+                                background: $color-gray--dark;
+                                color: $color-black--light;
+                                font: 400 11px/14px $font;
+                                letter-spacing: 0px;
+                            }
+                        }
+                    }
+
+                    .wpcf7-field-submit {
+                        display: flex;
+                        align-items: center;
+                        position: relative;
+
+                        input[type=submit],
+                        .wpcf7-submit {
+                            flex: 1;
+                            cursor: pointer;
+                            display: block;
+                            margin: 0;
+                            padding: 8px 20px;
+                            border: 2px solid transparent;
+                            font: 700 14px/20px $font--alt;
+                            letter-spacing: 0.62px;
+                            text-transform: uppercase;
+                            text-align: center;
+                            transition: background .2s ease;
+
+                            &, &:visited {
+                                background: $color-blue;
+                                color: $color-white;
+                            }
+
+                            &:hover {
+                                background: $color-blue--dark;
+                            }
+
+                            &:active, &:focus {
+                                outline: none;
+                                background: $color-blue--light;
+                                box-shadow: none;
+                            }
+
+                            @include screen("small") {
+                                max-width: 160px;
+                            }
+                        }
+
+                        .ajax-loader {
+                            width: 100%;
+                            height: 40px;
+                            display: block;
+                            flex: 1;
+                            position: absolute;
+                            margin: 0;
+                            padding: 8px 20px;
+                            border: 2px solid transparent;
+                            background-color: $color-gray;
+                            background-repeat: no-repeat;
+                            background-position: center;
+
+                            @include screen("small") {
+                                max-width: 160px;
+                            }
+                        }
+                    }
+
+                    .wpcf7-response-output {
+                        margin: 10px 0 0;
+                        padding: 5px 10px;
+                        border: 0;
+                        font: 400 11px/16px $font;
+                    }
+
+                    &.sent {
+
+                        .wpcf7-response-output {
+                            width: 100%;
+                            height: 100%;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            margin: 0;
+                            background: $color-white;
+                            color: $color-black;
+                            font: 700 15px/22px $font--alt;
+                            text-transform: uppercase;
+                            text-align: center;
+                        }
+                    }
+
+                    &.invalid {
+
+                        .wpcf7-response-output {
+                            background: $color-red;
+                            color: $color-white;
+                        }
+                    }
+                }
+            }
+
+            @media (min-height: 450px) {
+                max-height: 330px;
+            }
+
+            @media (min-height: 700px) {
+                max-height: 500px;
+            }
+
+            @media (min-height: 900px) {
+                max-height: auto;
+            }
+        }
+
+        &.iamui-is--active {
+            opacity: 1;
+            animation-name: fadeInUp;
+            overflow-y: auto;
+        }
+
+        &.iamui-is--inactive {
+            opacity: 0;
+            animation-name: fadeOutDown;
+        }
+    }
+
+    // MODAL active
+    &.iamui-is--active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow-y: auto;
+    }
+}
+
+body {
+
+    &.iam-ui {
+
+        &.iamui-has--modal {
+            overflow: hidden;
+        }
+    }
+}
+
+.iamui-wpcf7-select2-dropdown {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    background: $color-gray--dark;
+
+    .select2-results__option {
+        padding: 4px 10px;
+        color: $color-black;
+        font: 400 13px/22px $font;
+        letter-spacing: 0.43px;
+
+        &[aria-selected=true] {
+            background: $color-blue--dark;
+            color: $color-white;
+        }
+    }
+
+    .select2-results__option--highlighted {
+
+        &[aria-selected] {
+            background: $color-blue--light;
+            color: $color-white;
+        }
+    }
+}
