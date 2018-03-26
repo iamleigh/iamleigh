@@ -1,8 +1,4 @@
 <?php
-// Automatic versioning on deploy for cache breaking
-define( 'DEPLOY_VERSION', 'fd0a48c0' );
-define( 'TEMPLATE_VERSION', '1.0.0' );
-
 function iamleigh_setup() {
 
     // Make theme available for translation
