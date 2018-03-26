@@ -1,0 +1,55 @@
+.iam-ui .iamui-header {
+    padding: 30px 0;
+    text-align: center;
+
+    .iamui-header--logo {
+
+        .iamui-logo {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .iamui-logo--description {
+            margin: 20px 0 0;
+            padding: 0;
+            color: $color-black;
+            font: 400 12px/15px $font--alt;
+            letter-spacing: 0.53px;
+            text-transform: uppercase;
+
+            strong {
+                font-weight: 700;
+            }
+        }
+    }
+
+    .iamui-header--title {
+        margin: 50px 0;
+        padding: 0;
+        color: $color-black;
+        font: 700 32px/40px $font--alt;
+        letter-spacing: 0px;
+        text-transform: uppercase;
+    }
+
+    .iamui-header--subtitle {
+        margin: 50px 0;
+        padding: 0;
+        color: $color-black;
+        font: 400 14px/28px $font;
+        letter-spacing: 0.62px;
+        text-transform: none;
+    }
+
+    .iamui-navigation--header {
+        margin: 50px 0 0;
+    }
+
+    + .iamui-section {
+        padding: 0 0 30px;
+
+        @include screen("medium") {
+            padding: 20px 0 50px;
+        }
+    }
+}
