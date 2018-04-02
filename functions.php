@@ -84,4 +84,13 @@ add_filter( 'wp_title', 'iamleigh_wp_title', 10, 2 );
  */
 require( get_template_directory() . '/inc/enqueue/load-scripts.php' );
 require( get_template_directory() . '/inc/enqueue/load-styles.php' );
+
+/**
+ * 
+ * Custom Post Types
+ * 
+ * @since iamleigh 1.0.1
+ * @version 1.0.1
+ */
+include( get_template_directory() . '/inc/portfolio/init.php' );
 ?>
