@@ -26,7 +26,7 @@
 
             <div class="iamui-section--content">
 
-                <?php echo do_shortcode('[contact-form-7 title="Contact"]'); ?>
+                <?php echo do_shortcode('[forminator_form id="22"]'); ?>
 
             </div>
 
