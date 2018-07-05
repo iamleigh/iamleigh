@@ -15,20 +15,20 @@
  */
 function iamleigh_setup() {
 
-    // Make theme available for translation
-    load_theme_textdomain( 'iamleigh' );
+	// Make theme available for translation
+	load_theme_textdomain( 'iamleigh' );
 
-    // Let WordPress manage the document title
-    add_theme_support( 'title-tag' );
+	// Let WordPress manage the document title
+	add_theme_support( 'title-tag' );
 
-    // Enable support for Post Thumbnails on posts and pages
-    add_theme_support( 'post-thumbnails' );
+	// Enable support for Post Thumbnails on posts and pages
+	add_theme_support( 'post-thumbnails' );
 
-    // Enable wp_nav_menu()
-    register_nav_menus( array(
-        'header'    => __( 'Header Menu', 'iamleigh' ),
-        'footer'    => __( 'Footer Menu', 'iamleigh' )
-    ) );
+	// Enable wp_nav_menu()
+	register_nav_menus( array(
+		'header' => __( 'Header Menu', 'iamleigh' ),
+		'footer' => __( 'Footer Menu', 'iamleigh' ),
+	) );
 
 }
 
@@ -50,26 +50,30 @@ add_action( 'after_setup_theme', 'iamleigh_setup' );
  *
  */
 function iamleigh_wp_title( $title, $sep ) {
-    
-    global $paged, $page;
-    
-    if ( is_feed() )
-        return $title;
+
+	global $paged, $page;
+
+	if ( is_feed() ) {
+		return $title;
+	}
 
 	// Add the site name.
 	$title .= get_bloginfo( 'name', 'display' );
 
 	// Add the site description for the home/front page.
 	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) )
+
+	if ( $site_description && ( is_home() || is_front_page() ) ) {
 		$title = "$title $sep $site_description";
+	}
 
 	// Add a page number if necessary.
-	if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() )
+	if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
 		$title = "$title $sep " . sprintf( __( 'Page %s', 'iamleigh' ), max( $paged, $page ) );
+	}
 
-    return $title;
-    
+	return $title;
+
 }
 
 add_filter( 'wp_title', 'iamleigh_wp_title', 10, 2 );
@@ -82,15 +86,14 @@ add_filter( 'wp_title', 'iamleigh_wp_title', 10, 2 );
  * @version 1.0
  *
  */
-require( get_template_directory() . '/inc/enqueue/load-scripts.php' );
-require( get_template_directory() . '/inc/enqueue/load-styles.php' );
+require get_template_directory() . '/inc/enqueue/load-scripts.php';
+require get_template_directory() . '/inc/enqueue/load-styles.php';
 
 /**
- * 
+ *
  * Custom Post Types
- * 
+ *
  * @since iamleigh 1.0.1
  * @version 1.0.1
  */
-include( get_template_directory() . '/inc/portfolio/init.php' );
-?>
+require get_template_directory() . '/inc/portfolio/init.php';
