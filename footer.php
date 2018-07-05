@@ -24,7 +24,7 @@
 
 						<?php include_once ABSPATH . 'wp-admin/includes/plugin.php'; ?>
 
-						<?php if ( is_plugin_active( 'forminator/forminator.php' ) ) { ?>
+						<?php if ( is_plugin_active( 'contact-form-7/wp-contact-form-7.php' ) ) { ?>
 
 							<button class="iamui-button iamui-button--cyan iamui-cta--button iamui-modal--open" data-modal="footer-popup-contact"><?php esc_html_e( "Let's Engage", 'iamleigh' ); ?></button>
 
