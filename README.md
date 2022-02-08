@@ -16,7 +16,7 @@ $ git config --global user.name "Leighton Sapir"
 - 🧱 Lego's fan since 1989.
 - 🕹️ Casual gamer. Stopped playing actively when diagnosed with motion sickness.
 - 🐾 Pet's lover. That's why I volunteer with animal rescue organizations.
-- 👽 I saw an alien once, for real!
+- 👽 I saw an alien once! For real!
 
 [Portfolio](https://iamleigh.com) | [LinkedIn](https://linkedin.com/iamleigh) | [Dribbble](http://dribbble.com/iamleigh) | [Twitter](http://twitter.com/uixleighton)
 
