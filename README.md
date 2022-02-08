@@ -1,1 +1,23 @@
-# Hello. I am Leigh.
+### Hello. I am Leigh.
+
+I am a multidisciplinary front-end developer and desginer living in Cuenca, Ecuador. Currently, I work at [Incsub](http://incsub.com/), making WordPress better with our toolkits.
+
+```
+git config --global user.name "Leighton Sapir"
+```
+
+#### Personal Highlights
+
+- 🧙‍ Plugins Library Lead (aka, SUI Team) @ [WPMU DEV](https://wpmudev.com/) – A sub-division of **Incsub**.
+- 🧑🏻‍💻 Senior Front End Developer @ [Incsub](http://incsub.com/).
+- 👨 Husband to the World's Greatest Wife.
+- 🧱 Lego's fan since 1989.
+- 🕹️ Casual gamer. Stopped playing actively when diagnosed with motion sickness.
+
+[Portfolio](https://iamleigh.com) | [LinkedIn](https://linkedin.com/iamleigh) | [Dribbble](http://dribbble.com/iamleigh) | [Twitter](http://twitter.com/uixleighton)
+
+#### About my role at [Incsub](http://incsub.com/)
+
+- 🥷 Every WPMU DEV plug-in you install has a bit of my magic since 2015.
+- 🧙‍♂️ One ring to rule them all (and I am the custody of it). I am the leader of the plugins' library team (aka, SUI Team).
+- 🧑🏻‍💻 I started as a Junior Developer, with the years and hard effort took a huge leap.
