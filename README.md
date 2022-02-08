@@ -23,6 +23,9 @@ $ git config --global user.name "Leighton Sapir"
 - 🥷 Every WPMU DEV plug-in you install has a bit of my magic since 2015.
 - 🧙‍♂️ One ring to rule them all (and I am the custody of it). I am the leader of the plugins' library team (aka, SUI Team).
 - 🧑🏻‍💻 I started as a Junior Developer, with the years and hard effort took a huge leap.
+- 👶 [Hustle](https://wpmudev.com/project/hustle/) is my baby project since I built it from the scratch.
+
+[Shared UI](https://wpmudev.github.io/shared-ui/) | [SUI React](https://wpmudev.github.io/shared-ui-react/) | [Shared Modules](https://wpmudev.github.io/shared-modules/)
 
 - - -
 
