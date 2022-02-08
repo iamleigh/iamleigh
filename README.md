@@ -3,8 +3,10 @@
 I am a multidisciplinary front-end developer and desginer living in Cuenca, Ecuador. Currently, I work at [Incsub](http://incsub.com/), making WordPress better with our toolkits.
 
 ```
-git config --global user.name "Leighton Sapir"
+$ git config --global user.name "Leighton Sapir"
 ```
+
+- - -
 
 #### Personal Highlights
 
@@ -21,3 +23,10 @@ git config --global user.name "Leighton Sapir"
 - 🥷 Every WPMU DEV plug-in you install has a bit of my magic since 2015.
 - 🧙‍♂️ One ring to rule them all (and I am the custody of it). I am the leader of the plugins' library team (aka, SUI Team).
 - 🧑🏻‍💻 I started as a Junior Developer, with the years and hard effort took a huge leap.
+
+- - -
+
+```
+$ git commit -a -m "Update personal intro"
+$ git push
+```
