@@ -18,7 +18,7 @@ $ git config --global user.name "Leighton Sapir"
 - 🐾 Pet's lover. That's why I volunteer with animal rescue organizations.
 - 👽 I saw an alien once! For real!
 
-[Portfolio](https://iamleigh.com) | [LinkedIn](https://linkedin.com/iamleigh) | [Dribbble](http://dribbble.com/iamleigh) | [Twitter](http://twitter.com/uixleighton)
+[Portfolio](https://iamleigh.com/) | [LinkedIn](https://www.linkedin.com/in/iamleigh/) | [Dribbble](http://dribbble.com/iamleigh/) | [Twitter](http://twitter.com/uixleighton/)
 
 #### About my role at [Incsub](http://incsub.com/)
 
