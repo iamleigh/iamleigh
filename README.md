@@ -10,8 +10,8 @@ $ git config --global user.name "Leighton Sapir"
 
 #### Personal Highlights
 
-- 🧙‍ Plugins Library Lead (aka, SUI Team) @ [WPMU DEV](https://wpmudev.com/) – A sub-division of **Incsub**.
 - 🧑🏻‍💻 Senior Front End Developer.
+- 🧙‍ Plugins Library Lead (aka, SUI Team) @ [WPMU DEV](https://wpmudev.com/) – A sub-division of **Incsub**.
 - 💑 Married to the World's Greatest Wife.
 - 🧱 Lego's fan since 1992.
 - 🕹️ Casual gamer. Stopped playing actively when diagnosed with motion sickness.
