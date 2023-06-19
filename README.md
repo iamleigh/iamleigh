@@ -23,13 +23,13 @@ $ git config --global user.name "Leighton Quito"
 
 #### About my role at [Incsub](http://incsub.com/)
 
-- 🥷 Every WPMU DEV plug-in you install has a bit of my magic from 2015 to 2023.
-- 🖖 Plugins Front End Lead @ [WPMU DEV](https://wpmudev.com/) – A sub-division of **Incsub**.
-- 🧙‍♂️ Shared UI Lead. One ~ring~ library to rule them all, and I am its custody.
-- 🧑🏻‍💻 I started as a Junior Developer, with the years and hard effort took a huge leap.
-- 👶 [Hustle](https://wpmudev.com/project/hustle/) is my baby project since I built it from the scratch.
+- Every WPMU DEV plug-in you install has a bit of my magic from 2015 to 2023.
+- Plugins Front End Lead @ [WPMU DEV](https://wpmudev.com/) – A sub-division of **Incsub**.
+- Shared UI Lead. One ~ring~ library to rule them all, and I am its custody.
+- I started as a Junior Developer, with the years and hard effort took a huge leap.
+- [Hustle](https://wpmudev.com/project/hustle/) is my baby project since I built it from the scratch.
 
-[SUI 3](https://wpmudev.github.io/sui-docs/) | [Shared UI](https://wpmudev.github.io/shared-ui/) | [SUI React](https://wpmudev.github.io/shared-ui-react/) | [Shared Modules](https://wpmudev.github.io/shared-modules/)
+[SUI 3](https://wpmudev.github.io/sui-docs/) | [SUI 2](https://wpmudev.github.io/shared-ui/) | [SUI 2 React](https://wpmudev.github.io/shared-ui-react/) | [SUI 2 Modules](https://wpmudev.github.io/shared-modules/)
 
 - - -
 
