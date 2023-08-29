@@ -10,8 +10,9 @@ $ git config --global user.name "Leighton Quito"
 
 #### Personal Highlights
 
-- 🧑🏻‍💻 Senior Front End Developer.
+- 🧑🏻‍💻 Senior Developer.
 - 👾 WordPress Developer.
+- 🥷🏻 Front-End Ninja.
 - 🎨 UI/UX Designer.
 - 💑 Married to the World's Greatest Wife.
 - 🧱 Lego's fan since 1992.
