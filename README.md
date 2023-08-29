@@ -1,6 +1,6 @@
 ### Hello. I am Leigh.
 
-I am a multidisciplinary front-end developer and desginer living in Cuenca, Ecuador.
+I am a multidisciplinary front-end developer and desginer living in Cuenca, Ecuador. Currently I work at [Awesome Motive](https://awesomemotive.com/), making WordPress better with our toolkits.
 
 ```
 $ git config --global user.name "Leighton Quito"
