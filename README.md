@@ -10,7 +10,7 @@ $ git config --global user.name "Leighton Quito"
 
 #### Personal Highlights
 
-- 🧑🏻‍💻 Senior Developer for **Thrive Themes** at **[Awesome Motive](https://github.com/awesomemotive)**.
+- 🧑🏻‍💻 Senior Developer for **[Thrive Themes](https://github.com/ThriveThemes)** at **[Awesome Motive](https://github.com/awesomemotive)**.
 - 👾 WordPress Developer since 2011.
 - 🥷🏻 Front-End Ninja & Accessibility Expert.
 - 🎨 UI/UX Designer.
@@ -25,7 +25,7 @@ $ git config --global user.name "Leighton Quito"
 #### About my role at [Incsub](http://incsub.com/)
 
 - Every WPMU DEV plug-in you install has a bit of my magic from 2015 to 2023.
-- Plugins Front End Lead at [WPMU DEV](https://wpmudev.com/) – A sub-division of **Incsub**.
+- Plugins Front End Lead for [WPMU DEV](https://wpmudev.com/) at **Incsub**.
 - Shared UI Lead. One ~ring~ library to rule them all, and I was its custody.
 - I started as a Junior Developer, with the years and hard effort took a huge leap.
 - [Hustle](https://wpmudev.com/project/hustle/) is my baby project because I built it from the scratch.
