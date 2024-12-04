@@ -10,12 +10,13 @@ $ git config --global user.name "Leighton Quito"
 
 #### Personal Highlights
 
-- 🧑🏻‍💻 Senior Developer for **[Thrive Themes](https://github.com/ThriveThemes)** at **[Awesome Motive](https://github.com/awesomemotive)**.
+- 🧑🏻‍💻 Senior Engineer for **[Thrive Themes](https://github.com/ThriveThemes)** at **[Awesome Motive](https://github.com/awesomemotive)**.
 - 👾 WordPress Developer since 2011.
 - 🥷🏻 Front-End Ninja & Accessibility Expert.
 - 🎨 UI/UX Designer.
 - 💑 Married to the World's Greatest Wife.
 - 🧱 Lego's fan since 1992.
+- 🎸 Casual musician.
 - 🕹️ Casual gamer. Stopped playing actively when diagnosed with motion sickness.
 - 🐾 Pet's lover. That's why I volunteer with animal rescue organizations.
 - 👽 I saw an alien once! For real!
