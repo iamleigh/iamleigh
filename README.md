@@ -10,7 +10,7 @@ $ git config --global user.name "Leighton Quito"
 
 #### Personal Highlights
 
-- 🧑🏻‍💻 Senior Engineer for **[Thrive Themes](https://github.com/ThriveThemes)** at **[Awesome Motive](https://github.com/awesomemotive)**.
+- 🧑🏻‍💻 Tech Lead & Senior Frontend Engineer.
 - 👾 WordPress Developer since 2011.
 - 🥷🏻 Front-End Ninja & Accessibility Expert.
 - 🎨 UI/UX Designer.
